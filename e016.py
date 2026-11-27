@@ -2,7 +2,7 @@ from PIL import Image
 import matpylotlib.pyplot as plt
 import numpy as np
 
-image = Image.open("messi.jpeg")
+image = Image.open("messi.jpg")
 imagen = np.array(imagen)
 dimensiones = np.shape(imagen)
 print(dimensiones)
